@@ -1,4 +1,7 @@
-/*-------------------------------------------------------*/		/* Base styles	 */	/*-------------------------------------------------------*/html {
+/*-------------------------------------------------------*/		
+/* Base styles	 */	
+/*-------------------------------------------------------*/
+html {
     overflow-y: scroll;
 }
 
@@ -8,7 +11,12 @@ body {
     padding: 0px;
     font-family: 'open Sans', Arial;
     font-size: 12px;
-}			       	/*-------------------------------------------------------*/		/* Wrap */	/*-------------------------------------------------------*/#container {
+}
+
+/*-------------------------------------------------------*/		
+/* Wrap */	
+/*-------------------------------------------------------*/
+#container {
     margin: 0 auto;
     width: 860px;
     margin-bottom: 20px;
@@ -20,7 +28,12 @@ body {
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
     -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
-}	/*-------------------------------------------------------*/		/* Generic Classes */	/*-------------------------------------------------------*/.hidden {
+}
+
+/*-------------------------------------------------------*/
+/* Generic Classes */
+/*-------------------------------------------------------*/
+.hidden {
     display: none;
 }	/* Clearfix */.clear {
     clear: both;
@@ -70,7 +83,12 @@ body {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto;
-}	/*-------------------------------------------------------*/		/* Typography */	/*-------------------------------------------------------*/h1 {
+}	
+
+/*-------------------------------------------------------*/
+/* Typography */
+/*-------------------------------------------------------*/
+h1 {
     font-size: 37px;
 }
 
@@ -120,11 +138,19 @@ h3.main-heading::after {
     left: 0;
     bottom: -1px;
     background: /*mainColor*/#fdc750;
-}	/*-------------------------------------------------------*/		/* Top Section */	/*-------------------------------------------------------*/header {
+}
+
+/*-------------------------------------------------------*/
+/* Top Section */
+/*-------------------------------------------------------*/
+header {
     height: 60px;
     margin-bottom: 20px;
     overflow: hidden;
-}	/* Logo */#logo {
+}	
+
+/* Logo */
+#logo {
     float: left;
     overflow: hidden;
     margin-left: 10px;
@@ -176,13 +202,21 @@ h3.main-heading::after {
     height: 10px;
     background-color: #222;
     color: #FFF;
-}	/*-------------------------------------------------------*/		/* Profile Section */	/*-------------------------------------------------------*/#profile {
+}
+
+/*-------------------------------------------------------*/
+/* Profile Section */
+/*-------------------------------------------------------*/
+#profile {
     background: /*mainColor*/#fdc750;
     background-image: url(../images/header-shadow.png);
     background-position: center bottom;
     background-repeat: repeat-x;
     overflow: hidden;
-}	/* About */.about {
+}	
+
+/* About */
+.about {
     float: left;
     margin-top: 30px;
     width: 490px;
@@ -221,7 +255,10 @@ h3.main-heading::after {
     color: /*profileTextColor*/#a87f09;
     font-weight: 400;
     line-height: 20px;
-}	/* Personal info */.personal-info {
+}	
+
+/* Personal info */
+.personal-info {
     float: left;
     margin-top: 30px;
     width: 310px;
@@ -253,7 +290,12 @@ h3.main-heading::after {
     padding-top: 4px;
     font-weight: 300;
     color: /*profileTextColor*/#a87f09;
-}	/*-------------------------------------------------------*/		/* Menu */	/*-------------------------------------------------------*/.menu {
+}	
+
+/*-------------------------------------------------------*/
+/* Menu */
+/*-------------------------------------------------------*/
+.menu {
     height: 100px;
     background-color: #ededed;
     position: relative;
@@ -323,14 +365,22 @@ h3.main-heading::after {
 
 .disabled {
     display: none !important;
-}	/*-------------------------------------------------------*/		/* Resume Section */	/*-------------------------------------------------------*/#resume {
+}
+
+/*-------------------------------------------------------*/
+/* Resume Section */
+/*-------------------------------------------------------*/
+#resume {
     padding: 40px 20px;
     overflow: hidden;
 }
 
 .skills-section, .timeline-section {
     float: left;
-}	/* Timeline Section */.timeline-section {
+}	
+
+/* Timeline Section */
+.timeline-section {
     width: 490px;
     padding-right: 60px;
 }
@@ -378,7 +428,10 @@ h3.main-heading::after {
     color: #666;
     font-size: 12px;
     margin-top: 5px;
-}	/* Skills Section */.skills-section {
+}
+
+/* Skills Section */
+.skills-section {
     width: 270px;
 }
 
@@ -418,7 +471,10 @@ h3.main-heading::after {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-}	/* Download Button */#resume .button {
+}
+
+/* Download Button */
+#resume .button {
     width: 250px;
     padding: 10px;
     background-color: #8c8c8c;
@@ -437,9 +493,17 @@ h3.main-heading::after {
 
 #resume .button:hover {
     background-color: /*mainColor*/#fdc750;
-}	/*-------------------------------------------------------*/		/* Portfolio Section */	/*-------------------------------------------------------*/#portfolio {
+}	
+
+/*-------------------------------------------------------*/
+/* Portfolio Section */
+/*-------------------------------------------------------*/
+#portfolio {
     padding: 20px 20px 20px 20px;
-}	/* Images list */#portfolio-list {
+}
+
+/* Images list */
+#portfolio-list {
     width: 820px;
     overflow: hidden;
 }
@@ -481,7 +545,10 @@ h3.main-heading::after {
     font-size: 11px;
     line-height: 25px;
     color: #999;
-}	/* Filter menu */.cats-filter {
+}
+
+/* Filter menu */
+.cats-filter {
     border-bottom: 1px solid #ededed;
     overflow: hidden;
     padding: 15px 0;
@@ -502,7 +569,10 @@ h3.main-heading::after {
 
 .cats-filter li a.current {
     background-color: /*mainColor*/#fdc750;
-}	/* adipoli */.adipoli-wrapper {
+}
+
+/* adipoli */
+.adipoli-wrapper {
     margin: auto;
     position: relative;
     display: inline-block;
@@ -534,7 +604,12 @@ h3.main-heading::after {
     display: block;
     position: absolute;
     z-index: 15;
-}	/*-------------------------------------------------------*/		/* Blog Section */	/*-------------------------------------------------------*/#blog {
+}
+
+/*-------------------------------------------------------*/
+/* Blog Section */
+/*-------------------------------------------------------*/
+#blog {
     padding: 20px;
     position: relative;
     overflow: hidden;
@@ -578,7 +653,10 @@ h3.main-heading::after {
 
 .blog-entry > a:hover h3 {
     color: /*mainColor*/#fdc750;
-}		/* Entry Date */.blog-entry .entry-date {
+}
+
+/* Entry Date */
+.blog-entry .entry-date {
     padding: 5px 10px;
     position: absolute;
     top: 5px;
@@ -614,18 +692,27 @@ h3.main-heading::after {
     color: #666;
     line-height: 20px;
     margin-bottom: 15px;
-}	/* Blog Sidebar */.blog-sidebar {
+}
+
+/* Blog Sidebar */
+.blog-sidebar {
     width: 260px;
     float: left;
     margin-left: 30px;
-}	/* Blog Single */.blog-single {
+}
+
+/* Blog Single */
+.blog-single {
     position: relative;
     background-color: #fff;
 }
 
 .blog-single h3,.blog-single p {
     padding-left: 0px !important;
-}	/* Comments box */.comments-list {
+}
+
+/* Comments box */
+.comments-list {
     margin-bottom: 30px;
 }
 
@@ -683,7 +770,10 @@ h3.main-heading::after {
     font-size: 11px;
     color: #909090;
     line-height: 16px;
-}	/* Load More Button */#page_nav {
+}
+
+/* Load More Button */
+#page_nav {
     width: 150px;
     padding: 6px;
     background-color: #8c8c8c;
@@ -702,9 +792,18 @@ h3.main-heading::after {
 
 #page_nav:hover {
     background-color: /*mainColor*/#fdc750;
-}	/* Loading Text */.loading-msg img {
+}
+
+/* Loading Text */
+.loading-msg img {
     display: none;
-}	/*-------------------------------------------------------*/		/* Widgets */	/*-------------------------------------------------------*/	/* Popular Post widget */.popular-posts-widget {
+}
+
+/*-------------------------------------------------------*/
+/* Widgets */
+/*-------------------------------------------------------*/
+/* Popular Post widget */
+.popular-posts-widget {
     width: 100%;
     overflow: hidden;
     margin-bottom: 30px;
@@ -733,7 +832,10 @@ h3.main-heading::after {
 .popular-posts-widget li span {
     font-size: 11px;
     color: #999;
-}	/* Flickr Stream widget */.flicker-stream-widget {
+}
+
+/* Flickr Stream widget */
+.flicker-stream-widget {
     overflow: hidden;
     margin-bottom: 30px;
 }
@@ -763,7 +865,10 @@ h3.main-heading::after {
     border-radius: 3px;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-}	/* Blog Single Post */.blog-single-close {
+}
+
+/* Blog Single Post */
+.blog-single-close {
     float: right;
     color: #FFF;
     font-weight: 300;
@@ -779,10 +884,18 @@ h3.main-heading::after {
 
 .blog-single-close:hover {
     color: /*mainColor*/#fdc750;
-}	/* Text widget */.text-widget {
+}
+
+/* Text widget */
+.text-widget {
     padding-bottom: 30px;
     line-height: 20px;
-}	/*-------------------------------------------------------*/		/* Contact Section */	/*-------------------------------------------------------*/#contact {
+}
+
+/*-------------------------------------------------------*/
+/* Contact Section */
+/*-------------------------------------------------------*/
+#contact {
     padding: 30px 0;
     overflow: hidden;
 }
@@ -798,7 +911,10 @@ h3.main-heading::after {
 
 .contact-form {
     width: 530px;
-}	/* Contact info */.contact-info ul {
+}
+
+/* Contact info */
+.contact-info ul {
     float: left;
     border-left: 1px solid /*mainColor*/#fdc750;
     padding-left: 18px;
@@ -809,13 +925,21 @@ h3.main-heading::after {
     line-height: 20px;
     color: #666;
     overflow: hidden;
-}	/* Google map */#map {
+}
+
+/* Google map */
+#map {
     height: 300px;
     margin-bottom: 25px;
     width: 100%;
     border-bottom: 1px solid #CCC;
     border-top: 1px solid #CCC;
-}	/*-------------------------------------------------------*/		/* Forms */	/*-------------------------------------------------------*/form .input,form textarea {
+}
+
+/*-------------------------------------------------------*/
+/* Forms */
+/*-------------------------------------------------------*/
+form .input,form textarea {
     -moz-box-shadow: inset 0 5px 16px -13px #333;
     -webkit-box-shadow: inset 0 5px 16px -13px #333;
     box-shadow: inset 0 5px 16px -13px #333;
@@ -885,7 +1009,12 @@ form p label {
     background-color: #f9e5e6;
     color: #b3696c;
     border: 1px solid #f7c7c9;
-}	/*-------------------------------------------------------*/		/* Footer */	/*-------------------------------------------------------*/footer {
+}
+
+/*-------------------------------------------------------*/
+/* Footer */
+/*-------------------------------------------------------*/
+footer {
     margin-top: 20px;
     height: 20px;
 }
@@ -894,7 +1023,12 @@ footer .copyright {
     float: left;
     color: #333;
     padding-left: 6px;
-}	/*-------------------------------------------------------*/		/* Footer */	/*-------------------------------------------------------*/div.footer {
+}
+
+/*-------------------------------------------------------*/
+/* Footer */
+/*-------------------------------------------------------*/
+div.footer {
     margin-top: 20px;
     height: 20px;
 }
@@ -903,7 +1037,12 @@ div.footer .copyright {
     float: left;
     color: #333;
     padding-left: 6px;
-}	/*-------------------------------------------------------*/		/* Isotope filtering */	/*-------------------------------------------------------*/.isotope-item {
+}
+
+/*-------------------------------------------------------*/
+/* Isotope filtering */
+/*-------------------------------------------------------*/
+.isotope-item {
     z-index: 2;
 }
 
@@ -929,17 +1068,32 @@ div.footer .copyright {
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
-}	/*-------------------------------------------------------*/	/* Media Queries *//*-------------------------------------------------------*//* Tablet Portrait size to standard 960 (devices and browsers) */@media only screen and (min-width: 768px) and (max-width: 959px) {
+}
+
+/*-------------------------------------------------------*/
+/* Media Queries */
+/*-------------------------------------------------------*/
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
     #container {
         width: 750px;
-    }	/*-------------------------------------------------------*/		/* Menu */	/*-------------------------------------------------------*/    .menu {
+    }	
+    /*-------------------------------------------------------*/
+    /* Menu */
+    /*-------------------------------------------------------*/
+    .menu {
         height: 100px;
         background-color: #ededed;
         position: relative;
         width: 590px;
         padding-left: 80px;
         padding-right: 80px;
-    }	/*-------------------------------------------------------*/		/* Profile Section */	/*-------------------------------------------------------*/	/* About */    .about {
+    }
+    /*-------------------------------------------------------*/
+    /* Profile Section */
+    /*-------------------------------------------------------*/
+    /* About */
+    .about {
         width: 410px;
     }
 
@@ -951,27 +1105,45 @@ div.footer .copyright {
     .about h3 {
         font-size: 14px;
         line-height: 14px;
-    }	/* Personal info */    .personal-info {
+    }
+
+    /* Personal info */
+    .personal-info {
         width: 280px;
         margin-right: 10px;
     }
 
     .personal-info li span {
         width: 190px;
-    }	/*-------------------------------------------------------*/		/* Resume */	/*-------------------------------------------------------*/    .timeline-section {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Resume */
+    /*-------------------------------------------------------*/
+    .timeline-section {
         width: 380px;
         padding-right: 30px;
     }
 
     .skills-section {
         width: 300px;
-    }	/*-------------------------------------------------------*/		/* Portfolio */	/*-------------------------------------------------------*/    #portfolio-list {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Portfolio */
+    /*-------------------------------------------------------*/
+    #portfolio-list {
         width: 750px;
     }
 
     #portfolio-list li {
         margin-right: 60px;
-    }	/*-------------------------------------------------------*/		/* Blog */	/*-------------------------------------------------------*/    .blog-content-wrapper {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Blog */
+    /*-------------------------------------------------------*/
+    .blog-content-wrapper {
         width: 420px;
     }
 
@@ -987,17 +1159,31 @@ div.footer .copyright {
 
     .comment-child .comment-meta,.comment-child .comment-body {
         width: 310px !important;
-    }	/*-------------------------------------------------------*/		/* Contact */	/*-------------------------------------------------------*/    .contact-info {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Contact */
+    /*-------------------------------------------------------*/
+    .contact-info {
         width: 250px;
     }
 
     .contact-form {
         width: 420px;
     }
-}/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
     #container {
         width: 470px;
-    }	/*-------------------------------------------------------*/		/* Top Section */	/*-------------------------------------------------------*/		/* Logo */    #logo h2 {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Top Section */
+    /*-------------------------------------------------------*/
+    /* Logo */
+    #logo h2 {
         font-size: 25px;
         font-weight: 900;
         color: #444;
@@ -1007,13 +1193,22 @@ div.footer .copyright {
     #logo h4 {
         color: #666;
         line-height: 15px;
-    }	/* Social icons */    .socialicons {
+    }
+
+    /* Social icons */
+    .socialicons {
         margin-top: 9px;
     }
 
     .socials-text {
         display: none !important;
-    }	/*-------------------------------------------------------*/		/* Profile Section */	/*-------------------------------------------------------*/	/* About */    .about {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Profile Section */
+    /*-------------------------------------------------------*/
+    /* About */
+    .about {
         width: 420px;
         display: block;
     }
@@ -1026,7 +1221,10 @@ div.footer .copyright {
     .about h3 {
         font-size: 14px;
         line-height: 14px;
-    }	/* Personal info */    .personal-info {
+    }
+
+    /* Personal info */
+    .personal-info {
         margin-top: 0;
         display: block;
         width: 420px;
@@ -1036,7 +1234,12 @@ div.footer .copyright {
 
     .personal-info li span {
         width: 280px;
-    }	/*-------------------------------------------------------*/		/* Menu */	/*-------------------------------------------------------*/    .tabs {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Menu */
+    /*-------------------------------------------------------*/
+    .tabs {
         padding-left: 5px;
     }
 
@@ -1047,7 +1250,11 @@ div.footer .copyright {
         width: 370px;
         padding-left: 50px;
         padding-right: 50px;
-    }	/*-------------------------------------------------------*/		/* Resume */	/*-------------------------------------------------------*/    .skills-section {
+    }
+    /*-------------------------------------------------------*/
+    /* Resume */
+    /*-------------------------------------------------------*/
+    .skills-section {
         width: 420px;
     }
 
@@ -1058,13 +1265,23 @@ div.footer .copyright {
     .timeline-section {
         width: 420px;
         padding-right: 60px;
-    }	/*-------------------------------------------------------*/		/* Portfolio */	/*-------------------------------------------------------*/    #portfolio-list {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Portfolio */
+    /*-------------------------------------------------------*/
+    #portfolio-list {
         width: 450px;
     }
 
     #portfolio-list li {
         margin-right: 40px;
-    }	/*-------------------------------------------------------*/		/* Blog */	/*-------------------------------------------------------*/    .blog-content-wrapper {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Blog */
+    /*-------------------------------------------------------*/
+    .blog-content-wrapper {
         width: 430px;
     }
 
@@ -1083,7 +1300,12 @@ div.footer .copyright {
 
     .comment-child .comment-meta,.comment-child .comment-body {
         width: 320px !important;
-    }	/*-------------------------------------------------------*/		/* Contact */	/*-------------------------------------------------------*/    .contact-info {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Contact */
+    /*-------------------------------------------------------*/
+    .contact-info {
         width: 420px;
     }
 
@@ -1091,7 +1313,10 @@ div.footer .copyright {
         margin-top: 20px;
         width: 420px;
     }
-}/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */@media only screen and (max-width: 479px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
     #container {
         width: 300px;
         margin-top: 10px;
@@ -1099,7 +1324,13 @@ div.footer .copyright {
 
     .extra-text {
         font-size: 16px;
-    }	/*-------------------------------------------------------*/		/* Top Section */	/*-------------------------------------------------------*/	/* Logo */    #logo h2 {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Top Section */
+    /*-------------------------------------------------------*/
+    /* Logo */
+    #logo h2 {
         font-size: 25px;
         font-weight: 900;
         color: #444;
@@ -1114,10 +1345,18 @@ div.footer .copyright {
     .socialicons {
         display: none;
         !important;
-    }	/*-------------------------------------------------------*/		/* Profile Section */	/*-------------------------------------------------------*/    div.top {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Profile Section */
+    /*-------------------------------------------------------*/
+    div.top {
         height: 50px;
         margin-bottom: 5px;
-    }	/* About */    .about {
+    }
+
+    /* About */
+    .about {
         width: 280px;
         display: block;
         margin: 10px 0 15px 10px;
@@ -1145,7 +1384,10 @@ div.footer .copyright {
 
     .about p {
         text-align: center;
-    }	/* Personal info */    .personal-info {
+    }
+
+    /* Personal info */
+    .personal-info {
         margin-top: 0;
         display: block;
         width: 280px;
@@ -1162,7 +1404,12 @@ div.footer .copyright {
 
     .personal-info li span {
         width: 200px;
-    }	/*-------------------------------------------------------*/		/* Menu */	/*-------------------------------------------------------*/    .tabs {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Menu */
+    /*-------------------------------------------------------*/
+    .tabs {
         padding-left: 0px;
     }
 
@@ -1182,7 +1429,12 @@ div.footer .copyright {
         width: 200px;
         padding-left: 50px;
         padding-right: 50px;
-    }	/*-------------------------------------------------------*/		/* Resume */	/*-------------------------------------------------------*/    #resume {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Resume */
+    /*-------------------------------------------------------*/
+    #resume {
         padding: 10px;
     }
 
@@ -1197,13 +1449,23 @@ div.footer .copyright {
 
     .skills li h4 {
         width: 120px;
-    }	/*-------------------------------------------------------*/		/* Portfolio */	/*-------------------------------------------------------*/    #portfolio-list {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Portfolio */
+    /*-------------------------------------------------------*/
+    #portfolio-list {
         width: 280px;
     }
 
     #portfolio-list li {
         margin-left: 40px;
-    }	/*-------------------------------------------------------*/		/* Blog */	/*-------------------------------------------------------*/    .blog-content-wrapper {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Blog */
+    /*-------------------------------------------------------*/
+    .blog-content-wrapper {
         width: 260px;
     }
 
@@ -1248,7 +1510,12 @@ div.footer .copyright {
     .comment-child .comment-body {
         width: 220px !important;
         margin-left: 0;
-    }	/*-------------------------------------------------------*/		/* Contact */	/*-------------------------------------------------------*/    .contact-info {
+    }
+
+    /*-------------------------------------------------------*/
+    /* Contact */
+    /*-------------------------------------------------------*/
+    .contact-info {
         width: 280px;
     }
 
