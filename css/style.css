@@ -167,7 +167,10 @@ header {
 #logo h4 {
     color: #666;
     line-height: 20px;
-}	/* Social icons */.socialicons {
+}
+
+/* Social icons */
+.socialicons {
     float: right;
     margin-top: 18px;
 }
@@ -181,16 +184,17 @@ header {
 }
 
 .socialicons li a {
+    border-radius: 250px;
     font-family: 'icomoon';
-    font-size: 16px;
+    font-size: 18px;
     display: block;
-    padding: 6px 8px;
-    background-color: #222;
+    padding: 12px;
+    background-color: /*mainColor*/#74D6FC;
     color: #FFF;
 }
 
 .socialicons li a:hover {
-    color: /*mainColor*/#74D6FC;
+    color: #222;
 }
 
 .social-icons li:last-child {
