@@ -1,5 +1,11 @@
 jQuery(document).ready(function(){ 
 	
+	/*-------------------------------------------------------*/     
+	/* Chrome Webfont Fix  */ 
+	/* http://stackoverflow.com/questions/22011139/google-fonts-are-not-rendering-on-google-chrome */
+	/*-------------------------------------------------------*/
+    $('head').append('<link href="css/chrome.css" rel="stylesheet" />');
+
 	/* ---------------------------------------------------------------------- */
 	/*	Custom Functions
 	/* ---------------------------------------------------------------------- */
