@@ -146,7 +146,7 @@ h3.main-heading::after {
 header {
     height: 60px;
     margin-bottom: 20px;
-    overflow: hidden;
+    overflow: visible;
 }	
 
 /* Logo */
@@ -185,16 +185,18 @@ header {
 
 .socialicons li a {
     border-radius: 250px;
-    font-family: 'icomoon';
     font-size: 18px;
     display: block;
     padding: 12px;
     background-color: /*mainColor*/#74D6FC;
     color: #FFF;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
 }
 
 .socialicons li a:hover {
-    color: #222;
+    margin-top: -6px;
 }
 
 .social-icons li:last-child {
