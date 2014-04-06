@@ -419,6 +419,11 @@ header {
     float: right;
 }
 
+.timeline li .timelineUnit .timelineDate:after {
+    content: '';
+    clear: both;
+}
+
 .timeline li .timelineUnit h4 {
     line-height: 24px;
     font-size: 15px;
