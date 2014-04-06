@@ -53,7 +53,7 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 	
 	// Profile Photo Slider
-	 $(".photo-inner ul").carouFredSel({
+	/* $(".photo-inner ul").carouFredSel({
         direction           : "left",
  	    circular: true,
         auto    			: true,
@@ -69,7 +69,7 @@ jQuery(document).ready(function(){
         items: {
             width: 153
         }           
-    });
+    }); */
 	 
 	/* ---------------------------------------------------------------------- */
 	/*	Menu

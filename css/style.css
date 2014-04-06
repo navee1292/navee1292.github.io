@@ -137,7 +137,7 @@ h3.main-heading::after {
     position: absolute;
     left: 0;
     bottom: -1px;
-    background: /*mainColor*/#fdc750;
+    background: /*mainColor*/#74D6FC;
 }
 
 /*-------------------------------------------------------*/
@@ -190,7 +190,7 @@ header {
 }
 
 .socialicons li a:hover {
-    color: /*mainColor*/#fdc750;
+    color: /*mainColor*/#74D6FC;
 }
 
 .social-icons li:last-child {
@@ -208,7 +208,7 @@ header {
 /* Profile Section */
 /*-------------------------------------------------------*/
 #profile {
-    background: /*mainColor*/#fdc750;
+    background: /*mainColor*/#74D6FC;
     background-image: url(../images/header-shadow.png);
     background-position: center bottom;
     background-repeat: repeat-x;
@@ -332,7 +332,7 @@ header {
 }
 
 .tabs li.active a {
-    color: /*mainColor*/#fdc750;
+    color: /*mainColor*/#74D6FC;
 }
 
 .tabs li > a > i {
@@ -398,13 +398,13 @@ header {
     margin-left: 0px;
     color: #444;
     font-size: 13px;
-    border-left: 1px solid /*mainColor*/#fdc750;
+    border-left: 1px solid /*mainColor*/#74D6FC;
     padding-left: 15px;
 }
 
 .timeline li .timelineUnit .timelineDate {
     line-height: 17px;
-    color: /*mainColor*/#fdc750;
+    color: /*mainColor*/#74D6FC;
     font-size: 14px;
     margin-left: 10px;
     font-weight: normal;
@@ -492,7 +492,7 @@ header {
 }
 
 #resume .button:hover {
-    background-color: /*mainColor*/#fdc750;
+    background-color: /*mainColor*/#74D6FC;
 }	
 
 /*-------------------------------------------------------*/
@@ -520,7 +520,7 @@ header {
 }
 
 #portfolio-list li:hover {
-    border-bottom: 1px solid /*mainColor*/#fdc750;
+    border-bottom: 1px solid /*mainColor*/#74D6FC;
     height: 185px;
 }
 
@@ -531,7 +531,7 @@ header {
 }
 
 #portfolio-list li:hover .title {
-    color: /*mainColor*/#fdc750;
+    color: /*mainColor*/#74D6FC;
 }
 
 #portfolio-list li .title {
@@ -564,11 +564,11 @@ header {
 }
 
 .cats-filter li a:hover {
-    background-color: /*mainColor*/#fdc750;
+    background-color: /*mainColor*/#74D6FC;
 }
 
 .cats-filter li a.current {
-    background-color: /*mainColor*/#fdc750;
+    background-color: /*mainColor*/#74D6FC;
 }
 
 /* adipoli */
@@ -652,7 +652,7 @@ header {
 }
 
 .blog-entry > a:hover h3 {
-    color: /*mainColor*/#fdc750;
+    color: /*mainColor*/#74D6FC;
 }
 
 /* Entry Date */
@@ -720,7 +720,7 @@ header {
     background-color: #fbfbfb;
     padding: 12px 9px;
     overflow: hidden;
-    border-left: 1px solid /*mainColor*/#fdc750;
+    border-left: 1px solid /*mainColor*/#74D6FC;
     margin-bottom: 10px;
 }
 
@@ -762,7 +762,7 @@ header {
 }
 
 .comment .comment-meta .reply:hover {
-    color: /*mainColor*/#fdc750;
+    color: /*mainColor*/#74D6FC;
 }
 
 .comment .comment-body p {
@@ -791,7 +791,7 @@ header {
 }
 
 #page_nav:hover {
-    background-color: /*mainColor*/#fdc750;
+    background-color: /*mainColor*/#74D6FC;
 }
 
 /* Loading Text */
@@ -826,7 +826,7 @@ header {
 }
 
 .popular-posts-widget li h2 a:hover {
-    color: /*mainColor*/#fdc750;
+    color: /*mainColor*/#74D6FC;
 }
 
 .popular-posts-widget li span {
@@ -883,7 +883,7 @@ header {
 }
 
 .blog-single-close:hover {
-    color: /*mainColor*/#fdc750;
+    color: /*mainColor*/#74D6FC;
 }
 
 /* Text widget */
@@ -916,7 +916,7 @@ header {
 /* Contact info */
 .contact-info ul {
     float: left;
-    border-left: 1px solid /*mainColor*/#fdc750;
+    border-left: 1px solid /*mainColor*/#74D6FC;
     padding-left: 18px;
 }
 
@@ -988,7 +988,7 @@ form p label {
 }
 
 .button:hover {
-    background-color: /*mainColor*/#fdc750;
+    background-color: /*mainColor*/#74D6FC;
 }
 
 .success, .error {
@@ -1229,7 +1229,7 @@ div.footer .copyright {
         display: block;
         width: 420px;
         background: none;
-        border-top: 1px solid /*mainColor*/#fdc750;
+        border-top: 1px solid /*mainColor*/#74D6FC;
     }
 
     .personal-info li span {
@@ -1392,7 +1392,7 @@ div.footer .copyright {
         display: block;
         width: 280px;
         background: none;
-        border-top: 1px solid /*mainColor*/#fdc750;
+        border-top: 1px solid /*mainColor*/#74D6FC;
         margin-left: 10px;
         min-height: 220px;
         padding-left: 0;
