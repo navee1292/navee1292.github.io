@@ -419,7 +419,7 @@ header {
     float: right;
 }
 
-.timeline li .timelineUnit .timelineDate:after {
+.timeline li .timelineUnit h4:after {
     content: '';
     clear: both;
 }
