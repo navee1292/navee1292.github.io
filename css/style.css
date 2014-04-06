@@ -6,6 +6,7 @@ html {
 }
 
 body {
+    background-image: url(../images/background/pattern1.jpg);
     background-color: #E8E8E8;
     margin: 0px;
     padding: 0px;
