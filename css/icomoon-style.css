@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-omvrtw');
-	src:url('fonts/icomoon.eot?#iefix-omvrtw') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-omvrtw') format('woff'),
-		url('fonts/icomoon.ttf?-omvrtw') format('truetype'),
-		url('fonts/icomoon.svg?-omvrtw#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-glu8c');
+	src:url('fonts/icomoon.eot?#iefix-glu8c') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-glu8c') format('woff'),
+		url('fonts/icomoon.ttf?-glu8c') format('truetype'),
+		url('fonts/icomoon.svg?-glu8c#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,8 +23,23 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-twitter:before {
+	content: "\f099";
+}
+.icon-facebook:before {
+	content: "\e603";
+}
+.icon-profile:before {
+	content: "\e602";
+}
 .icon-resume:before {
 	content: "\e600";
+}
+.icon-contact:before {
+	content: "\e601";
+}
+.icon-stackoverflow:before {
+	content: "\e608";
 }
 .icon-portfolio:before {
 	content: "\f0b1";
@@ -32,21 +47,9 @@
 .icon-quora:before {
 	content: "\e604";
 }
-.icon-contact:before {
-	content: "\e601";
-}
-.icon-profile:before {
-	content: "\e602";
-}
-.icon-facebook:before {
-	content: "\e603";
+.icon-linkedin:before {
+	content: "\e605";
 }
 .icon-github:before {
 	content: "\e606";
-}
-.icon-stackoverflow:before {
-	content: "\e608";
-}
-.icon-linkedin:before {
-	content: "\e605";
 }
